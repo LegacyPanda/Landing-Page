@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+}
+
+nav{
+    margin-right: 2em;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 10rem;
+}
+
+.nav-list{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav-list h3{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+main{
+    padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-title{
+    width: 430px;
+}
+
+.main-title h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.main-title p{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.main-button{
+    font-weight: 800;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 1rem;
+    width: 9rem;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.marcus-aurelius{
+    margin-left: 5rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.info-title{
+    align-self: center;
+}
+
+.info-title h2{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.info-pics{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+figure{
+    /*max-width: auto;/*max-width: auto; will fill the available space in the box.*/
+    width: 210px;
+    /*border: 5px solid #3882F6;
+    border-radius: 0.5rem;
+    padding: 0;*/
+}
+
+figure img{
+    border: 5px solid #3882F6;
+    border-radius: 0.5rem;
+    padding: 0;
+}
+
+figcaption{
+    color: #1F2937;
+    text-align: center;
+    font-weight: 600;
+}
+
+.quote{
+    padding: 5rem;
+}
+
+.quote p{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+p span{
+    display: block;/*I put words in a paragraph in a span then used block to put it on its own line*/
+    text-align-last: right;
+    font-weight: 900;
+    font-style: normal;/*this is me using higher specificity*/
+}
+
+.call{
+    padding: 5rem 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.call-action{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 2.5rem;
+    width: 70em;
+    border: 0;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.call-action p{
+    justify-self: flex-start;
+}
+
+.div-button{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.call-button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 7rem;
+    padding: 0.4rem 1rem;
+    border: 3px solid #F9FAF8;
+    border-radius: 0.5rem;
+    /*I was going to do this shit
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    */
+}
